@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtDishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên món ăn" />
+
+    <EditText
+        android:id="@+id/edtCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá tiền"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả ngắn" />
+</LinearLayout>
